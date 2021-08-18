@@ -4,7 +4,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to the Animal Rescue League          
+          Welcome to the my Blog site!       
         </h1>
         <h2 class="subtitle">
           Make sure you check out our upcoming events below
