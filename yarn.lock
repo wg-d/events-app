@@ -8984,6 +8984,11 @@
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
 
+"vue-cookies@^1.7.4":
+  "integrity" "sha512-mOS5Btr8V9zvAtkmQ7/TfqJIropOx7etDAgBywPCmHjvfJl2gFbH2XgoMghleLoyyMTi5eaJss0mPN7arMoslA=="
+  "resolved" "https://registry.npmjs.org/vue-cookies/-/vue-cookies-1.7.4.tgz"
+  "version" "1.7.4"
+
 "vue-eslint-parser@^7.10.0":
   "integrity" "sha512-7tc/ewS9Vq9Bn741pvpg8op2fWJPH3k32aL+jcIcWGCTzh/zXSdh7pZ5FV3W2aJancP9+ftPAv292zY5T5IPCg=="
   "resolved" "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-7.10.0.tgz"
