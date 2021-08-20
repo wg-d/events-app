@@ -1,5 +1,5 @@
 <template>
-    <form action="" method="post">
+    <form v-on:submit="login">
     <div class="imgcontainer">
          <img src="https://www.w3schools.com/howto/img_avatar2.png" width="100" height="80"/>
     </div>
@@ -28,6 +28,37 @@
     </div>
     </form>
 </template>
+<script>
+import router from '../router'
+import axios from 'axios'
+
+export default {
+    name: "Login",
+    methods: {
+        login: (e) => {
+            e.preventDefault()
+            let email = 'user@gmail.com'
+            let password = 'password'
+            let login = () => {
+                let data = {
+                    email: email,
+                    password: password
+                }
+                axios.post("api/login", data)
+                .then((response) => {
+                    console.log('Logged in.')
+                    router.push('/dashboard')
+                })
+                .catch((error) => {
+                    console.log("Cannot log in.")
+                })
+            }
+            login()
+
+        }
+    }    
+}
+</script>
 <style scoped>
     /* Bordered form */
     form {
