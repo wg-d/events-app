@@ -44,7 +44,7 @@ export default {
                     email: email,
                     password: password
                 }
-                axios.post("api/login", data)
+                axios.post("https://localhost:3000/api/login", data)
                 .then((response) => {
                     console.log('Logged in.')
                     self.$set(this, "user", response.data.user)

@@ -27,7 +27,7 @@ export default {
                 })    
                 .catch((errors) => {    
                     console.log(errors)    
-                    router.push("/")    
+                    router.push("/dashboard")    
                 })    
         }    
     },    
